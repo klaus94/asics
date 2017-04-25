@@ -1,0 +1,28 @@
+paper 1 - middleware
+abstract
+introduction
+origins
+fundamentals
+evolution
+future
+conclusion
+
+paper 2 - meta-programming
+introducion (content table within)
+taxonomy/classification
+uses
+research areas
+comparison of different methods
+presentation of different methods and their problems
+theory
+applications
+conclusion
+
+paper 3 - self-adaption
+abstract
+introduction
+principles & requirements
+taxomomy
+current research
+research challenges
+summary
