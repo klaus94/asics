@@ -1,0 +1,79 @@
+testing-basics
+-------------------
+(efficient design of system test)
+
+
+
+
+traditional tests
+-------------------
+(SOA: Testing and Self-Checking)
+- nicht praktikabel für adaptive Systeme, weil: zu viele unvorhersehbare Testfälle/Umgebungen/Kontexte
+- Vorteil: vor dem Deployment kann man sich sicher sein, dass das System sich richtig verhält (falls man alle möglichen Szenarien in seinen Testfällen abgedeckt hat)
+- Konzepte des traditionellen Software-Testens:
+	- Unit-test (z.b. Test einer einzelnen Methode)
+	- Integration-test (z.b. Test der Kooperation von mehreren Sub-Systemen)
+	- System-test (Gesamtsystem als blackbox testen, Abhängigkeiten zu anderen System vernachlässigen/maskieren)
+	- Regression-test (Wiederholtes Testen von Verhalten, das nach jeder Änderung am System immer noch garantiert sein soll)
+- Annahmen im traditionellen Testen:
+	- beim Aufruf einer Funktion kann man genau vorhersagen, welcher Code durch den Aufruf ausgeführt wird
+	- in OOP: alle "bindings of a polymorphic compontents" sind bekannt  ???
+
+
+applications
+-------------------
+(SOA: Testing and Self-Checking)
+service-oriented architectures (SOA) (z.b. Webservices)
+Herausforderungen:
+- Verteilte Systeme -> Quality of Service
+- Services (z.b. in Web service) verändern sich unabhängig voneinander
+- Systeme tauschen während der Laufzeit Services aus oder fügen neue Services hinzu
+- einzelne Teile des Systems werden von unterschiedlichen Stakeholdern entwickelt/gemanaget
+- ultra-late-binding... ???
+- services sind nicht physisch mit dem System verbunden sondern können auch von einer externen Partei bereitgestellt werden -> Systemtester haben keinen Zugriff auf alle Teile des Codes
+
+(Using Dynamic Adaptive Systems in Safety-Critical Domains)
+- Internet of Things-Geräte -> müssen sich ihrer Umgebung anpassen können und kontextabhängige Entscheidungen treffen
+- Cyber-physikalische Systeme (E-Health, Frühwarnsysteme z.B. Tsunami, Industrie 4.0 - Cyber-physikalische-Produktionssysteme)
+- sicherheitskritische Systeme (Auto: Unfallerkennung, Unfallhilfe, autonomes Fahren)
+Motivation:
+- Gerät, das sich an Umgebung anpasst kann ein mal entwickelt und überall eingesetzt werden, anstatt für jede Umgebung neues Gerät entwickeln -> Kosten sparen
+- Fehlertoleranz von sicherheitskritischen Systemen durch gutes Testen erhöhen
+-> das ist wichtig für sicherheitskritische Systeme, denn bei diesen entstehen bei Fehlern große Schäden an Mensch und Umwelt  
+-> traditionelles Testen sehr teuer/aufwändig (kombinatorische Explosion von Testfällen) bzw. gar nicht vollständig möglich -> hohe Kosten bei Zertifizierung (muss bei einem Fehler komplett von vorne durchgeführt werden)
+
+(A journey to highly dynamic, self-adaptive service-based applications)
+- Historische Entwicklung: hierarchisch, stabil, zentralisiert, monolythisch -> verteilt, dynamisch verbunden
+-> neue Anforderungen an Software: flexibel, dynamisch, anpassungsfähig
+- service-basierte Anwendung statt komponenten-basiert -> nicht Benutzen von fertigen Komponenten und Verbindung dieser Komponenten, sondern benutzen von fertigen Services, die von Dritten angeboten werden
+-> service-orientierte Architektur... gibt Richtlinien, wie service-basierte Anwendungen gebaut werden
+- z.b. SOA zwischen mehreren Firmen -> Verfolgen von Lieferketten, direktes Feedback vom Endkunden
+
+(Towards Self-Testing in Autonomic Computing Systems)
+self-adaptive-system... Funktion und Struktur kann sich während der Laufzeit ändern
+
+
+self-testing/monitoring
+-------------------
+(SOA: Testing and Self-Checking)
+=? runtime monitoring
+= self-checking
+... System während der Laufzeit überwachen und Ausgaben checken (Korrektheit & QoS), notfalls Recovery-Aktion durchführen
++ kann mit Anpassung des Systems zur Laufzeit umgehen
++ kann im Fehlerfall durch Ausführen von Recovery-Aktionen wieder einen guten Systemzustand herstellen
++ Speichern der Daten des Monitorings -> geringere Test-Kosten, weil z.B. ein fremder Service nicht so oft getestet werden muss (dessen Benutzung evt Geld kostet)
+- man kann vor dem deploy nicht versichern dass das system in jeder Situation richtig agiert
+- kleiner Overhead während der Laufzeit für Monitoring-Prozess, meist kein Problem, Monitoring-Komponenten sollten erlauben, den Grad des Monitoring zu beeinflussen
+- Ausnahmefälle bleiben ungetestet (Peak-Auslastung, Parallelität, alle möglichen Eingaben ins System)
+- Probleme werden zu spät erkannt -> Recovery-Aktionen nicht immer möglich (z.B. bei Verletzung eines Responsetime-Constraints kann monitoring nichts mehr retten)
+- testet ausschließlich richtiges Systemverhalten bei korrekter Benutzung des Systems
+
+(Towards Self-Testing in Autonomic Computing Systems)
+- 
+
+
+------------------------------------- paper spezifische Ansätze/Modelle/Ansichten
+(SOA: Testing and Self-Checking)
+- self-checking & traditionelles Testen haben beide Schwächen im Umgang mit adaptiven Systemen
+-> self-checking & traditionelles Testen sind 2 Fasetten des Testens von adaptiven Systemen, die sich gegenseitig ergänzen
+- (funktionale-, nicht funktionale Anforderungen, Kooperation von Systemen, Entwicklung des Services) x (self-checking, traditionelles Testen)
