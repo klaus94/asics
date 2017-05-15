@@ -3,8 +3,6 @@ testing-basics
 (efficient design of system test)
 
 
-
-
 traditional tests
 -------------------
 (SOA: Testing and Self-Checking)
@@ -69,7 +67,28 @@ self-testing/monitoring
 - testet ausschließlich richtiges Systemverhalten bei korrekter Benutzung des Systems
 
 (Towards Self-Testing in Autonomic Computing Systems)
-- 
+- self-testing-Ansatz:
+1. safe adaption with validation:
+- Test-Komponente im zu testenden System überwacht das System zur Laufzeit:
+-> System erkennt, dass Adaptierung notwendig ist 
+-> Request an den systemeigenen AdaptationManager 
+-> dieser initiiert Adaptierung und benachrichtigt den Testmanager (+Setupvalidation... Wann wird Test bestanden)
+-> Adaptierung findet statt, aber weitere Ausführung wird geblockt 
+-> Testmanager initiiert Systemtest 
+-> Resultat wird ausgewertet (Ablehnung/Gewähren) und das Ergebnis an den AdaptationManager geschickt, der die Adaptierung freigibt oder zurücknimmt
++ wenig Overhead
+- Während Test werden Operationen geblockt
+2. replication with validation
+-> wie safe adaption with validation, nur, dass keine echte Adaption stattfindet, sondern die Adaption passiert zunächst auf einer Kopie der überwachten Resource. Tests erfolgreich -> Verwenden der getesteten Kopie
++ kein Zeit-gab bei Adaptierung
+- Overhead durch Kopie
+
+(Towards Testing Self-organizing, Adaptive Systems)
+Idee: ausführliches Testen der Corridor Enforcing Infrastructure (CEI) -> self-adaptive system muss nicht mehr getestet werden
+CEI... pattern, mit dem ein System mittels feedback-loops überwacht und kontrolliert werden, basiert auf der Idee, dass das System immer in einem gewissen Rahmen handeln soll (corridor of correct behavior (CCB)), welcher durch Anforderungen und Constraints definiert ist. Verlässt das System diesen Korridor, so muss das CEI dafür sorgen, dass das System wieder in einen guten Zustand überführt wird
+- CEI wird getestet durch Simulation (environmental variation scenarios (EVS)): ein System-Agent führt unter Beobachtung des CEIs Aktionen durch, Verlässt der Agent den zulässigen Korridor muss ermittelt werden, ob dies ein Fehler des CEIs war oder ob der Fehler aufgrund von Testdaten provoziert wurde, worauf der CEI reagieren soll (Unterscheidung mittels Model-checking)
+-> diese Strategie kann auch für Gruppen von Agents oder das gesamte System benutzt werden (mit etwas zusätzlichem Aufwand)
+
 
 
 ------------------------------------- paper spezifische Ansätze/Modelle/Ansichten
