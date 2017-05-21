@@ -1,3 +1,3 @@
 asics:
-tilo: self-adaptive systems basics, model-testing, context-modeling, developing-process, testing agent
-dome: testing-basics, self-testing, traditional tests, applications
+tilo: self-adaptive systems basics, model-testing, context-modeling, developing-process
+dome: testing-basics, self-testing, traditional tests, applications, testing agent
