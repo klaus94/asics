@@ -1,0 +1,31 @@
+\newcommand{\chap}[2]{\refstepcounter{chapter}\setcounter{page}{#2}
+  \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}#1}
+  \null\clearpage}
+\newcommand{\sect}[2]{\refstepcounter{section}\setcounter{page}{#2}
+  \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
+  \null\clearpage}
+\newcommand{\ssect}[2]{\setcounter{page}{#2}%
+  \addcontentsline{toc}{subsection}{#1}%
+  \null\clearpage}
+\newcommand{\sssect}[2]{\setcounter{page}{#2}%
+  \addcontentsline{toc}{subsubsection}{#1}%
+  \null\clearpage}
+
+\documentclass{article}
+\begin{document}
+
+\tableofcontents
+\pagenumbering{arabic}
+\sect{Introduction}{2}
+\sect{...(something like: Motivation for research in this field)...}{2}
+\ssect{2.1 Characterization of self-adaptive systems}{2}
+\ssect{2.2 Challanges for testing}{2}
+\ssect{2.3 Traditional testing}{2}
+\ssect{2.4 Current applications}{2}
+\sect{Current technology for testing self-adaptive systems}{2}
+\ssect{3.1 Self-testing}{2}
+\ssect{3.2 Model-based testing}{2}
+\ssect{3.3 ...}{2}
+\sect{Evaluation of the different approches}{2}
+\sect{Conclusion}{2}
+\end{document}
