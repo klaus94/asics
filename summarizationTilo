@@ -1,0 +1,61 @@
+asics:
+
+model-based testing
+grundlagen self-adaptive systems
+context-modelling
+
+
+Püschel et al.: Generative und simulative Softwaretests für selbst-adaptive, cyper-physikalische Syteme
+
+- nur eine Seite abstract....... was da los
+
+Püschel et al.: Towards Systematic Model-based Testing of Self-adaptive Software
+
+    - grundlagen self-adaptive systems:
+    reconfigure automatically, runs in a control loop with four tasks: monitoring, analysis, planning, execution
+    
+    -the need of software tests in SAS: certification, delivered and left to customer -> reliable, evaluated, fault-prevention
+    a lot components (in the control loop) -> lots of information -> hard to manage for a test engineer with manual tests
+
+    - MBT:
+    FMEA - failure mode and effects analysis
+    black box approach
+    required information that must be gathered (testing in general): scenarios, how failure can occur and can be found; properties that can be influenced by failures; potential error propagation
+    more specific for MBT: failure analysis, requirements identificcation
+    failure analysis:
+        - idetnification of failure dimensions and properties (Failure Domain Model)
+        - failue senarios
+        - visualization of error propagation (Fault Dependency Graph)
+    analysation of MAPE-K process (Monitor, Analyze, Playn, Execute - Knowledge)
+    SAS components provides service: specification -> expected behaviour
+        - failure defined as deviation from this behaviour
+        - error is the part of the system that leads to the failure
+        - fault: cause of an error
+    error: dimensions type and localization
+        - types: inconsistency in (1) knowledge representation, (2) model itself, (3) incorrect intermediate state
+        - localization: locally or globally in potentially distributed SAS
+    failures: 
+        - qualitative vs. functional
+        - internally vs. externally (sensor/effector)
+        - un-intentional, missed or semantically wrong adaptation attempts
+    criticality of adaptations: harmless, mission-critical, safety-critical
+    failure senarios: page 5 of 6
+        - misinterpreted sensor data from the monitor
+        - wrong implemented adaptation rule condition leads to wrong or unintentionally adaptaion initiation
+        - wrong recording of events
+
+Püschel et al. a black box validation strategy for self-adaptive systems
+
+    task of self-adaptive systems:
+    - fulfilling tasks more efficiently, may find solutions to tasks that were not explicity defined
+
+    limitation of testing SAS:
+    - SAS can get into situations that were not thought of in the contruction and modelling of this system
+    -> validation to gain trust
+
+    MBT
+    - executing comprehensive test cases is expensive and very difficult -> generating test cases with models is the solution
+    - creating a metamodel compactly specifying all behavioral and adaptation-related aspects
+    - models could be some state-flow charts 
+    - from different state-flow charts there can be generated lots of test cases
+
