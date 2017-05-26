@@ -1,7 +1,11 @@
 \contentsline {section}{\numberline {1}Abstract}{3}
 \contentsline {section}{\numberline {2}Introduction}{4}
 \contentsline {section}{\numberline {3}Method and result}{5}
-\contentsline {subsection}{\numberline {3.1}self-testing}{5}
+\contentsline {subsection}{\numberline {3.1}Self-Testing}{5}
+\contentsline {subsubsection}{\numberline {3.1.1}Testmanager}{5}
+\contentsline {subsubsection}{\numberline {3.1.2}Corridor Enforcing Infrastructure}{5}
 \contentsline {subsection}{\numberline {3.2}model-based testing}{5}
 \contentsline {section}{\numberline {4}Evaluation}{6}
+\contentsline {subsection}{\numberline {4.1}Criteria}{6}
+\contentsline {subsection}{\numberline {4.2}Comparison}{6}
 \contentsline {section}{\numberline {5}test}{7}
