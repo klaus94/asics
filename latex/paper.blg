@@ -4,45 +4,46 @@ The top-level auxiliary file: paper.aux
 The style file: abbrv.bst
 Database file #1: ../bibtex/papers.bib
 Warning--can't use both author and editor fields in deLemos2013
-You've used 2 entries,
+Warning--can't use both author and editor fields in Eberhardinger2014
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            515 strings with 5171 characters,
-and the built_in function-call counts, 2139 in all, are:
-= -- 163
-> -- 241
-< -- 2
-+ -- 96
-- -- 94
-* -- 223
-:= -- 381
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 52
+            523 strings with 5528 characters,
+and the built_in function-call counts, 2649 in all, are:
+= -- 214
+> -- 264
+< -- 3
++ -- 105
+- -- 102
+* -- 259
+:= -- 455
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 58
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 39
-empty$ -- 72
-format.name$ -- 94
-if$ -- 398
+cite$ -- 5
+duplicate$ -- 61
+empty$ -- 110
+format.name$ -- 102
+if$ -- 512
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 59
+int.to.str$ -- 3
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 69
 preamble$ -- 1
-purify$ -- 51
+purify$ -- 57
 quote$ -- 0
-skip$ -- 29
+skip$ -- 47
 stack$ -- 0
-substring$ -- 49
-swap$ -- 16
-text.length$ -- 2
+substring$ -- 86
+swap$ -- 27
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 1
-while$ -- 9
-width$ -- 3
-write$ -- 25
-(There was 1 warning)
+type$ -- 8
+warning$ -- 2
+while$ -- 14
+width$ -- 4
+write$ -- 37
+(There were 2 warnings)

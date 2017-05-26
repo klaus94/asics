@@ -13,6 +13,12 @@ R.~de~Lemos, H.~Giese, H.~A. M{\"u}ller, M.~Shaw, J.~Andersson, M.~Litoiu,
   Research Roadmap}, pages 1--32.
 \newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2013.
 
+\bibitem{Eberhardinger2014}
+B.~Eberhardinger, H.~Seebach, A.~Knapp, and W.~Reif.
+\newblock {\em Towards Testing Self-organizing, Adaptive Systems}, pages
+  180--185.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2014.
+
 \bibitem{King2007}
 T.~M. King, D.~Babich, J.~Alava, P.~J. Clarke, and R.~Stevens.
 \newblock Towards self-testing in autonomic computing systems.
