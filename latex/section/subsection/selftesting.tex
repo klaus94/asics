@@ -1,9 +1,9 @@
 \subsection{Self-Testing}
 
-basic idea...
-- monitor system-components and if constraint violated -> do recovery-action
-- constraint can be a result or a QoS-constraint (e.g. response time)
-- keeping the monitored data can be a good source for later offline-tests
+The basic ides of self-testing is to monitor the systems state at runtime and check for violations of constraints. These constraints can be results of the system or quality of service constraints such as: response time. When bad behavior is observed by the test-environment, it tries to execute a recovery-action to bring the system back into a good state that produces the desired results.\\
+During our research we found two approaches that can be classified into self-testing: testmanager and corridor enforcing infrastructure.
+
+
 
  
 \subsubsection{Testmanager}
@@ -26,9 +26,6 @@ When the system needs to do an adaptation it notifies a test-manager and it exec
  
 \subsubsection{Corridor Enforcing Infrastructure}
 A system behaves in a good way, if it fulfills all its constraints at any time. As an illustration one could call this range of good system states defined by these constraints a ``Corridor``. Eberhardinger et al. \cite{Eberhardinger2014} have introduced an infrastructure, that continually monitores the system state and checks wheather the current state is still within the corridor of correct behavior (CCB). If the systems leaves the CCB, the test-system would need to bring the system back to a good state. 
-
-% evt gehoert sowas schon in die evaluation !?
-An advantage of this method is, that testing the corridor enforcing infrastructure would be enough to guarantee good system behavior. The system itself does not need to be tested.
 
 
 
