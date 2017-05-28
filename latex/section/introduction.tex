@@ -1,15 +1,22 @@
 \section{Introduction}
 
-For engineering software there are several approaches. One that got a lot more important over the past years is self-adaptive software for self-adaptive systems (SAS). SAS is able to adjust to different situations in different places all on it's own. The great benefit and the cause of why the field of SAS is researched now is that the software engineer does not program all exact situations that the system might be in. The software engineer just models some situations and abstracts from that. The system itself then should find a way to behave in a good way.
+% definition SAS
+For engineering software there are several approaches. One that got more important over the past years is self-adaptive software for self-adaptive systems (SAS). A SAS is able to adjust to different situations in different places on its own. The great benefit and the cause of why the field of SAS is researched now is that the software engineer does not program all exact situations that the system might be in. The software engineer just models some situations and abstracts from that. The system itself then should find a way to behave in a good way.
 
+% how a SAS works
 This is done by control loops. A control loop in a SAS contains four main parts: monitoring, analysis, planning and execution (MAPE). As the name loop tells, the control loop operates frequently and influences the behavior of the system. While monitoring and execution interact directly with physical parts of the system, the analysis and planning parts of the loop calculate the adjustments the system should made.
 
+% characterization of SAS -> challenges for testing
+
+% applications
 The greatest thinkable application of SAS might be a human like robot that behaves completely autonomous. It would be designed by some system architect and programmed by some software engineer, but they will never imagine every single situation the robot might be in. The solution is, developing a system that adjusts on it's own "learns" over the time.
 A smaller example could be an application that uses variable web services. In this application it shell not be important that a special service is reachable. The system chooses at runtime one of the services available and that could be very different ones each time the system runs.
 
+% motivation for testing
 Looking at the examples above, it is clear that these SAS need to be tested, in order to assure quality. This includes validation and verification of the systems. The worst case would be that there is a system produced that uses self-adaptation. It is delivered to the customer but was never tested and validated before. The customer starts the system and it not working as expected and the system failure leads to emergencies.
 Therefore it is very important to test self-adaptive systems.
 
+% limits of traditional testing
 While SAS are constructed in an other way than "normal" systems and the process of developing SAS is quite different there is the need of new ways to test systems and their behavior. Traditional Unit-Tests will reach their limits as the testing engineer needs to think of every single test case on his own and as mentioned before it is nearly impossible to think of every single situation the SAS might be in.
 
 There are already different approaches on testing SAS that we want to discuss and compare to each other in this paper. On the one hand there is self-testing with different techniques and on the other hand there is model-based testing.
