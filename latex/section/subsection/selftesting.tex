@@ -1,6 +1,6 @@
 \subsection{Self-Testing}
 
-The basic ides of self-testing is to monitor the systems state at runtime and check for violations of constraints. These constraints can be results of the system or quality of service constraints such as: response time. When bad behavior is observed by the test-environment, it tries to execute a recovery-action to bring the system back into a good state that produces the desired results.\\
+The basic ideas of self-testing is to monitor the systems state at runtime and check for violations of constraints. These constraints can be results of the system or quality of service constraints such as: response time. When bad behavior is observed by the test-environment, it tries to execute a recovery-action to bring the system back into a good state that produces the desired results.\\
 During our research we found two approaches that can be classified into self-testing: testmanager and corridor enforcing infrastructure.
 
 
@@ -12,14 +12,14 @@ One idea for a self-test architecture is a testmanager. In general this is a sof
 There are two variants of using a testmanager:\\
 
 1. safe adaption with validation\\
-Every time the system perceives a contextual change it notifys(?) an internal adaptation-manager. It decides wheather an adaption is needed. If the system wants to adapt, the adaptation-manager will initiate an adaption and at the same time notify the testmanager.
-After the adaption completed, all actions targeting the system were blocked.
+Every time the system perceives a contextual change it notifies an internal adaptation-manager. It decides wheather an adaption is needed. If the system wants to adapt, the adaptation-manager will initiate an adaption and at the same time notify the testmanager.
+After the adaptation is completed, all actions targeting the system are blocked.
 In the meanwhile the testmanager is executing a set of tests that depend on requirements that the adaption-manager sent.
 When all tests were finished the result is sent back to the system. The systems adaptation-manager will keep the changes, if the tests were successful or it will recover the old system-state, if a test failed.\\
 
 2. replication with validation\\
 The main idea of this architecture is similar to the idea of safe adaption with validation.
-When the system needs to do an adaptation it notifies a test-manager and it executes an adaption. But in contrast to the idea of ``safe adaption with validation`` the adaption is not executed directly on the running service. Insead, a copy of the service is created and the adaption is executed on the copy. The tests were then performed on the copy. At the same time, incoming requests are handled by the old system. After all tests finished successfully, the copy gets the new active handler of requests. If the test fails, the copy can be dropped.
+When the system needs to do an adaptation it notifies a test-manager and it executes an adaption. But in contrast to the idea of ``safe adaption with validation`` the adaption is not executed directly on the running service. Insead, a copy of the service is created and the adaptation is executed on the copy. The tests are then performed on the copy. At the same time, incoming requests are handled by the old system. After all tests finished successfully, the copy gets the new active handler of requests. If the test fails, the copy can be dropped.
 
 
  
