@@ -4,11 +4,33 @@ In the basic idea the model-based testing can be compared to traditional unit te
 
 \subsubsection{finding failure scenarios}
 
-To find failure scenarios there is the need of searching for aspects that can fail during execution. Püschel et al. defines quite a lot failure scenarios and explains them.
+\begin{figure}[t]
+  \includegraphics[width=\textwidth]
+  {images/adaptiveSystemFailures.png}
+  \caption{occurence of failures}
+  \label{failures}
+\end{figure}
+
+To find failure scenarios there is the need of searching for aspects that can fail during execution. P\"uschel et al. \cite{puschel2013towards} defines them refering to Figure~\ref{failures}. The different failure scenarios are:
+
+\begin{itemize}
+  \item SENS: misinterpreted sensor data
+  \item TRIG: misinterpreted event
+  \item PRE: misinterpreted model
+  \item ADAPT: wrong adaptation derived
+  \item PLAN: inconsistent planning
+  \item SCHED: inconsistent scheduler
+  \item POST: corrupt model construction
+  \item RECONF: reconfiguration failure
+  \item EVENT: wrong event creation
+  \item EFFECT: processing wrong effect production
+\end{itemize}
 
 \subsubsection{modelling of behavior}
 
-The next step is to model the behavior of the SAS. Therefore it is useful to look at all the failure scenarios and derive some behavior models from that. Models could for example be some state-flow charts that show which state should follow after a certain state. Especially interesting now are state-flows that seem to be orthogonal.
+The next step is to model the behavior of the SAS. Therefore it is useful to look at all the failure scenarios and derive some behavior models from that. Models could for example be some state-flow charts that show which state should follow after a certain state. Especially interesting now are state-flows that seem to be orthogonal. 
+
+An example of how this could look like was made by P\"uschel et al. in \cite{puschel2014black}.
 
 \subsubsection{testing}
 

@@ -19,10 +19,19 @@ B.~Eberhardinger, H.~Seebach, A.~Knapp, and W.~Reif.
   180--185.
 \newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2014.
 
-\bibitem{King2007}
-T.~M. King, D.~Babich, J.~Alava, P.~J. Clarke, and R.~Stevens.
-\newblock Towards self-testing in autonomic computing systems.
-\newblock In {\em Eighth International Symposium on Autonomous Decentralized
-  Systems (ISADS'07)}, pages 51--58, March 2007.
+\bibitem{puschel2013towards}
+G.~P{\"u}schel, S.~G{\"o}tz, C.~Wilke, and U.~A{\ss}mann.
+\newblock Towards systematic model-based testing of self-adaptive software.
+\newblock In {\em Proc. 5th Int. Conf. Adaptive and Self-Adaptive Systems and
+  Applications (ADAPTIVE)}, pages 65--70. Citeseer, 2013.
+\newblock wrong paper in directory.
+
+\bibitem{puschel2014black}
+G.~P{\"u}schel, C.~Piechnick, S.~G{\"o}tz, C.~Seidl, S.~Richly, and
+  U.~A{\ss}mann.
+\newblock A black box validation strategy for self-adaptive systems.
+\newblock In {\em Proceedings of The Sixth International Conference on Adaptive
+  and Self-Adaptive Systems and Applications, S}, pages 111--116. Citeseer,
+  2014.
 
 \end{thebibliography}

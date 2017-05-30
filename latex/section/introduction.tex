@@ -4,7 +4,14 @@
 For engineering software there are several approaches. One that got more important over the past years is self-adaptive software for self-adaptive systems (SAS). A SAS is able to adjust to different situations in different places on its own. The great benefit and the cause of why the field of SAS is researched now is that the software engineer does not program all exact situations that the system might be in. The software engineer just models some situations and abstracts from that. The system itself then should find a way to behave in a good way.
 
 % how a SAS works
-This is done by control loops. A control loop in a SAS contains four main parts: monitoring, analysis, planning and execution (MAPE). As the name loop tells, the control loop operates frequently and influences the behavior of the system. While monitoring and execution interact directly with physical parts of the system, the analysis and planning parts of the loop calculate the adjustments the system should made.
+\begin{figure}[t]
+  \includegraphics[width=\textwidth]
+  {images/MAPE.png}
+  \caption{MAPE}
+  \label{MAPE}
+\end{figure}
+
+This is done by control loops. A control loop in a SAS contains four main parts (as shown in Figure~\ref{MAPE}): monitoring, analysis, planning and execution (MAPE). As the name loop tells, the control loop operates frequently and influences the behavior of the system. While monitoring and execution interact directly with physical parts of the system, the analysis and planning parts of the loop calculate the adjustments the system should made.
 
 % characterization of SAS -> challenges for testing
 
