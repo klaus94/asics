@@ -1,0 +1,40 @@
+Einheit(unity) ... Hauptidee des Textes ist in jedem Satz erkennbar
+Zusammenhang(coherence) ... Sätze hängen untereinander zusammen
+
+Arten von Einheit:
+- unterstützend(supporting) ... trägt etwas neues zum Hauptthema bei
+- erinnernd(reminding) ... erinnert an das Hauptthema
+
+Fehler (fat) = Unterbrechung + Zusammenhanglosigkeit
+Unterbrechung (break) ... Unterbrechung der Einheit -> Inhalt schweift vom Hauptthema ab
+Zusammenhangslos (incoherence) ... Satz hat keinen Bezug zum vorhergehenden Satz
+
+Links ... Ausdruck, der einen Satz mit dem vorhergehenden Satz verbindet
+	- vertikal ... Verbindet Satz mit Hauptidee des Paragraphen -> sorgt für Einheit
+	- horizontal ... Verbindet Satz mit vorhergehendem Satz -> sorgt für Zusammenhang
+
+	- subject link ... Link der sich auf das Subjekt (des Themas oder des letzten Satzes) bezieht
+	- assessment link ... Link der den vorherigen Satz kommentiert/bewertet
+	- generalization link ... fasst die Idee aus dem vorherigen Satz allgemeiner auf
+	- object link ... Nimmt Bezug zum Subjekt des vorherigen Satzes, indem es dieses als Objekt aufgreift
+	- repetition link ... Wiederholung von Wörtern/Ideen des vorherigen Satzes (repetition of subject link, question link, Q+A link)
+
+Mikroorder pattern ... Muster im Zusammenspiel von Sätzen, womit bestimmte inhaltliche Ziele verfolgt werden können. Dazu werden Links benutzt. Ziel ist es dem Leser aufzuzeigen, was er schon weiß und was nun Neues dazu kommt (Zusammenhang herstellen)
+sentence parallelism ... 2 Sätze haben den selben Aufbau
+sentence chain ... Verkettung von Sätzen, die ein bestimmtes Mikroorder pattern benutzen
+thematic strings ... Verkettung von Sätzen oder Satzverkettungen
+patterns:													
+	- Bekannt -> neu
+	- Thema -> Rest
+	- Menge -> Teilmenge
+	- Ursache -> Wirkung
+	- Metapher -> Realität
+	- Vorher -> Nachher
+	- Stress zuletzt
+	- Allgemein -> Speziell
+	- explizite Sequenz... Benutzen von Markern, die explizit anzeigen, wo sich der Leser inhaltlich befindet (At first, moreover, finally)
+threading ... Gedankengang: kann erreicht werden durch globales Schema oder wiederum durch Micropatterns, die Satz-Verkettungen ordnen
+
+richtig ??? Mircoorder patterns können Sätze oder Verkettung von Sätzen ordnen ??
+
+topic chain analyse... Die ersten Wörter des ersten Satzes jedes Paragraphen sollten vom allgemeinen Thema handeln
