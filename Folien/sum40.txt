@@ -10,8 +10,8 @@ Unterbrechung (break) ... Unterbrechung der Einheit -> Inhalt schweift vom Haupt
 Zusammenhangslos (incoherence) ... Satz hat keinen Bezug zum vorhergehenden Satz
 
 Links ... Ausdruck, der einen Satz mit dem vorhergehenden Satz verbindet
-	- vertikal ... Verbindet Satz mit Hauptidee des Paragraphen -> sorgt für Einheit
-	- horizontal ... Verbindet Satz mit vorhergehendem Satz -> sorgt für Zusammenhang
+	- vertikal ... Verbindet Satz mit Hauptidee des Paragraphen -> sorgt für Einheit (über Paragraph hinaus)
+	- horizontal ... Verbindet Satz mit vorhergehendem Satz -> sorgt für Zusammenhang (innerhalb Paragraph)
 
 	- subject link ... Link der sich auf das Subjekt (des Themas oder des letzten Satzes) bezieht
 	- assessment link ... Link der den vorherigen Satz kommentiert/bewertet
@@ -35,6 +35,6 @@ patterns:
 	- explizite Sequenz... Benutzen von Markern, die explizit anzeigen, wo sich der Leser inhaltlich befindet (At first, moreover, finally)
 threading ... Gedankengang: kann erreicht werden durch globales Schema oder wiederum durch Micropatterns, die Satz-Verkettungen ordnen
 
-richtig ??? Mircoorder patterns können Sätze oder Verkettung von Sätzen ordnen ??
+richtig Microorder patterns können Sätze oder Verkettung von Sätzen ordnen (meistens mehrere Sätze bzw Paragraphe)
 
 topic chain analyse... Die ersten Wörter des ersten Satzes jedes Paragraphen sollten vom allgemeinen Thema handeln
