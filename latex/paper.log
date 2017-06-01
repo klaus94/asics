@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.23)  30 MAY 2017 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.23)  1 JUN 2017 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,44 +208,73 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
  [7 <./images/adaptiveSystemFailures.png>])) [8] (./section/evaluation.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+<images/testmanager.png, id=36, 376.40625pt x 255.95625pt>
+File: images/testmanager.png Graphic file (type png)
+
+<use images/testmanager.png>
+Package pdftex.def Info: images/testmanager.png used on input line 18.
+(pdftex.def)             Requested size: 345.0pt x 234.61555pt.
+
+<images/corridor.png, id=37, 406.51875pt x 255.95625pt>
+File: images/corridor.png Graphic file (type png)
+
+<use images/corridor.png>
+Package pdftex.def Info: images/corridor.png used on input line 26.
+(pdftex.def)             Requested size: 345.0pt x 217.22795pt.
+ [9 <./images/testmanager.png (PNG copy)>]
+<images/modelBased.png, id=41, 448.67625pt x 255.95625pt>
+File: images/modelBased.png Graphic file (type png)
+
+<use images/modelBased.png>
+Package pdftex.def Info: images/modelBased.png used on input line 34.
+(pdftex.def)             Requested size: 345.0pt x 196.81743pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--35
+Underfull \hbox (badness 10000) in paragraph at lines 44--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--35
+Underfull \hbox (badness 10000) in paragraph at lines 44--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--35
+Underfull \hbox (badness 10000) in paragraph at lines 44--58
 
  []
 
-) [9]
+[10 <./images/corridor.png (PNG copy)>]) [11 <./images/modelBased.png (PNG copy
+)>]
 
-LaTeX Warning: Citation `King2007' on page 10 undefined on input line 33.
+LaTeX Warning: Citation `King2007' on page 12 undefined on input line 33.
 
-(./paper.bbl) [10] (./paper.aux)
+(./paper.bbl) [12] (./paper.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 1555 strings out of 493029
- 22364 string characters out of 6136234
+ 1573 strings out of 493029
+ 22760 string characters out of 6136234
  81577 words of memory out of 5000000
- 5069 multiletter control sequences out of 15000+600000
+ 5084 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,6n,23p,634b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -256,10 +285,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb>
-Output written on paper.pdf (10 pages, 279724 bytes).
+Output written on paper.pdf (12 pages, 371178 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
