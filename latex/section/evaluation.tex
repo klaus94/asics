@@ -19,6 +19,13 @@ Below is the list of our criteria with explanations:
 	\caption{testmanager - Kiviat graph}
 	\label{testmngrKiviat}
 \end{figure}
++ flexible, relatively independent component\\
++ keeping the monitored data can be a good source for later offline-tests\\
+- overhead at runtime (safe adaption with validation has higher time overhead, lower memory overhead; replication with validation has lower time overhead, but higher memory overhead)\\
+- cannot guarantee good behavior prior to deployment -> need to be combined with traditional tests\\
+- there might be situations, where the testmanager can not handle a validation of a constraint (e.g. response time)
+
+
 
 \subsubsection{Corridor enforcing infrastructure}
 \begin{figure}[h]
@@ -28,6 +35,12 @@ Below is the list of our criteria with explanations:
 	\label{corridorKiviat}
 \end{figure}
 
+\noindent+ An advantage of this method is, that testing the corridor enforcing infrastructure would be enough to guarantee good system behavior. The system itself does not need to be tested.\\
++ testing the CEI is easier than testing the system itself\\
+- big infrastructure\\
+- overhead at runtime
+
+
 \subsubsection{modelbased testing}
 \begin{figure}[h]
 	\includegraphics[width=\textwidth]
@@ -35,24 +48,4 @@ Below is the list of our criteria with explanations:
 	\caption{model based testing - Kiviat graph}
 	\label{modelbasedKiviat}
 \end{figure}
-
-Kiviat-Graph of all methods...
-\\
-
-information for evaluation:\\
-
-selftesting: \\
-+ keeping the monitored data can be a good source for later offline-tests\\
-- overhead at runtime\\
-\\
-test-manager\\
-+ flexible, relatively independent component\\
-- overhead at runtime (safe adaption with validation has higher time overhead, lower memory overhead; replication with validation has lower time overhead, but higher memory overhead)\\
-- cannot guarantee good behavior prior to deployment -> need to be combined with traditional tests\\
-- there might be situations, where the testmanager can not handle a validation of a constraint (e.g. response time)\\
-\\
-corridor enforcing infrastructure:\\
-+ An advantage of this method is, that testing the corridor enforcing infrastructure would be enough to guarantee good system behavior. The system itself does not need to be tested.\\
-+ testing the CEI is easier than testing the system itself\\
-- big infrastructure\\
 
