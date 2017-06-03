@@ -19,12 +19,8 @@ Below is the list of our criteria with explanations:
 	\caption{testmanager - Kiviat graph}
 	\label{testmngrKiviat}
 \end{figure}
-+ flexible, relatively independent component\\
-+ keeping the monitored data can be a good source for later offline-tests\\
-- overhead at runtime (safe adaption with validation has higher time overhead, lower memory overhead; replication with validation has lower time overhead, but higher memory overhead)\\
-- cannot guarantee good behavior prior to deployment -> need to be combined with traditional tests\\
-- there might be situations, where the testmanager can not handle a validation of a constraint (e.g. response time)
-
+At first we want to evaluate the testmanager approach.
+A testmanager has the ability to handle adaptation of the system and therefore its runtime control is high. It has not the best possible score, because there are situation, where the manager can not handle a test violoation (e.g. injured response time constraint). On the other hand it can not ensure good behavior prior to release, because there are no tests before deployment. All tests were performed at runtime, which causes an overhead. By using the ``safe adaption with validation`` method there is a higher time overhead and by using the ``replication with validation`` methode there is a bigger memory overhead. Due to its independance from the monitored system, the testmanager is relatively flexible and can be used as an independent component. A system developer would need to define the constraints for each situation and the testmanager would automatically perform the required tests at runtime. Defining these constraints can be very time-consuming, if there are multiple different environments and actors that need to be included in the testing process.
 
 
 \subsubsection{Corridor enforcing infrastructure}
