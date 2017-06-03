@@ -1,0 +1,34 @@
+\section{Introduction}
+
+% definition SAS
+Digital systems are more and more integrated in our daily lives. This makes high demands for software-systems, because the software needs to be able to adapt to different environments. A system that is able to do this is called a self-adaptive system (SAS).
+
+% applications
+There are multiple applications for SAS in different domains such as digital assistants, self-driving cars, highly distributed web-services or robots to name a few. Some of them are safety-critical applications, that could cause high damage and even harm people, if they behaved wrongly.
+
+% need for testing
+For this reason it is very important to test these systems to ensure good behavior.
+
+% funcionality of sas
+But before thinking about the testing, it is important to understand how SAS work and what characterizes them.
+
+\begin{figure}[t]
+  \includegraphics[width=\textwidth]
+  {images/MAPE.png}
+  \caption{MAPE}
+  \label{MAPE}
+\end{figure}
+
+The main idea of SAS is the control loop. A control loop contains four main parts (as shown in Figure~\ref{MAPE}): monitoring, analysis, planning and execution (MAPE). The control loop operates frequently and influences the behavior of the system. While monitoring and execution interact directly with physical parts of the system, the analysis and planning parts of the loop calculate the adjustments the system should made.
+
+% characterization of SAS
+% todo...
+
+% challenges for testing, limits of traditional testing
+While SAS are constructed in an other way than "normal" systems and the process of developing SAS is quite different there is the need of new ways to test systems and their behavior. Traditional Unit-Tests will reach their limits as the testing engineer needs to think of every single test case on his own and as mentioned before it is nearly impossible to think of every single situation the SAS might be in.
+
+There are already different approaches on testing SAS that we want to discuss and compare to each other in this paper. On the one hand there is self-testing with different techniques and on the other hand there is model-based testing.
+\\
+\\
+\\
+missing: method (snowballing)
