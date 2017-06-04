@@ -19,15 +19,18 @@ But before thinking about the testing, it is important to understand how SAS wor
   \label{MAPE}
 \end{figure}
 
-The main idea of SAS is the control loop. A control loop contains four main parts (as shown in Figure~\ref{MAPE}): monitoring, analysis, planning and execution (MAPE). The control loop operates frequently and influences the behavior of the system. While monitoring and execution interact directly with physical parts of the system, the analysis and planning parts of the loop calculate the adjustments the system should made.
+The main idea of SAS is the control loop. A control loop contains four main parts (as shown in Figure~\ref{MAPE}): monitoring, analysis, planning and execution (MAPE). The control loop operates frequently and influences the behavior of the system. While monitoring and execution interact directly with physical parts of the system, the analysis and planning parts of the loop calculate the adjustments the system should make.
 
 % characterization of SAS
-% todo...
+A SAS is often characterised by a high degree of distribution. A system can use third party services and is able to change between multiple services at runtime. These external services were developed and deployed by different stake-holders. 
 
-% challenges for testing, limits of traditional testing
-While SAS are constructed in an other way than "normal" systems and the process of developing SAS is quite different there is the need of new ways to test systems and their behavior. Traditional Unit-Tests will reach their limits as the testing engineer needs to think of every single test case on his own and as mentioned before it is nearly impossible to think of every single situation the SAS might be in.
+% challanges
+These properties of self-adaptive systems lead to many challanges regarding testing of these systems. One consequence is that system-testers do not have total access to the code the system will execute. Moreover a tester can not predict at a specific call-site, which code will be executed next, because that depends on the currently used service and environment. The complexity is an other big challange for testing SAS. Every different environment and state of the system can lead to different desired behavior, which causes a combinatorical explosion of test-cases.
 
-There are already different approaches on testing SAS that we want to discuss and compare to each other in this paper. On the one hand there is self-testing with different techniques and on the other hand there is model-based testing.
+% limits of traditional testing
+Traditional testing assumes, that a system will always behave in a good way, when all possible test-cases were tested successfully. But this approach is not practicable for SAS. The amount of test-cases is too high and it might be impossible to execute some tests, because the tester does not have all code parts that will be executed.
+
+There are already different alternatives that we want to discuss and compare with each other in this paper. On the one hand there is self-testing with different variations and on the other hand there is model-based testing.
 \\
 \\
 \\
