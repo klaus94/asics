@@ -1,8 +1,8 @@
-\subsection{model-based testing}
+\subsection{Model-based testing}
 
 In the basic idea the model-based testing can be compared to traditional unit tests that a testing engineer is writing to test software. But model-based testing is a further developement of unit testing. The idea of model-based testing is not to think of all different scenarios and writing tests to each one oneself, but to generate these tests. The target of generating tests for SAS is to touch all available scenarios and test every situation the SAS might be into.
 
-\subsubsection{finding failure scenarios}
+\subsubsection{Finding failure scenarios}
 
 \begin{figure}[t]
   \includegraphics[width=\textwidth]
@@ -26,12 +26,12 @@ To find failure scenarios there is the need of searching for aspects that can fa
   \item EFFECT: processing wrong effect production
 \end{itemize}
 
-\subsubsection{modelling of behavior}
+\subsubsection{Modelling of behavior}
 
 The next step is to model the behavior of the SAS. Therefore it is useful to look at all the failure scenarios and derive some behavior models from that. Models could for example be some state-flow charts that show which state should follow after a certain state. Especially interesting now are state-flows that seem to be orthogonal. 
 
 An example of how this could look like was made by P\"uschel et al. in \cite{puschel2014black}.
 
-\subsubsection{testing}
+\subsubsection{Testing}
 
 After modelling different orthogonal state-flows or other behavior models, the main part of the generating test cases for the model-based testing is, merging the models together canonically and getting a huge set of test scenarios. For each of these test scenarios there will be created one special test. The great benefit is that the test engineer has not to think of every scenario himself but when the behavior is modeled, he will get every single test scenario from the generation from the models. So if there is any case that is very unlikely to happen, the testing engineer might leave it out or do not even think about it. But with this method it is tested anyway and if the system gets to this state there is a way to normalism.

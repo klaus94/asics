@@ -4,7 +4,7 @@ For our evaluation of the different testing strategies, we need some criteria. W
 Below is the list of our criteria with explanations:
 \begin{itemize}
 \item control during runtime... amount of impact of the test-suite during execution
-\item ensure quality before deploy... how much quality can the test-suite encure before the system gets deployed
+\item ensure quality before deploy... how much quality can the test-suite ensure before the system gets deployed
 \item performance overhead... amount of additional effort for running the test-suite simultanously to the system, which includes time and memory
 \item testing-cost... how complex is building the test for the developer
 \item adaptability... how easy can the test-suite be adapted to an other system
@@ -31,11 +31,7 @@ A testmanager has the ability to handle adaptation of the system and therefore i
 	\label{corridorKiviat}
 \end{figure}
 
-\noindent+ An advantage of this method is, that testing the corridor enforcing infrastructure would be enough to guarantee good system behavior. The system itself does not need to be tested.\\
-+ testing the CEI is easier than testing the system itself\\
-- big infrastructure\\
-- overhead at runtime
-
+\noindent+ Like the testmanager, the corridor enforcing infrastracture (CEI) is also able to adapt to a new system-state and can execute well fitting tests. As well as the testmanager it has not the highest possible score, because the CEI might not always be able to recover a good system-state. The CEI highly depends on the system, because the CEI must know possible actions of the system to bring it back to a save state. This reduces the adaptability and makes the testing-costs very high. As a result of the big infrastructure that need to run, there is a performance overhead. One advantage of the CEI over the testmanager is, that it can ensure quality before deploy to some degree. The reason is that the CEI itself can be tested before deploy. If one can show that the CEI is working it will hold the system within the corridor of correct behavior. But testing the CEI is difficult, because one has to simulate system behavior and check the CEIs reactions.
 
 \subsubsection{modelbased testing}
 \begin{figure}[h]
