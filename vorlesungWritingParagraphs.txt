@@ -1,0 +1,29 @@
+Wie baut man einen Paragraphen auf?
+-----------------------------------
+
+Paragraph =
+- Thesen-Frage
+- These
+- Argument + (Übergang + Argument)*
+
+Paragraph-Arten
+- naked ... kein übergeordnetes Thema
+- dressed ... hat einen Punkt
+
+Controller... Satz, der dem Leser klar macht, was der Punkt des Paragraphs ist
+
+Punkt (good Thesis statement)... 
+	Thema + Controlling idea (Grund, Vorteil, Motivation, ...  "... 3 simple steps...")
+	Development schema
+
+schlechtes thesis statement... Thema
+
+Forschungs-Hypothese... 
+	Thema + Behauptung
+	Effekt + Grund1 + Grund2
+	Ende (Finales Ziel) + Mittel1 + Mittel2
+	Problem + Lösung
+	Frage + Antwort1 + Antwort2			// kann auch in einer Disskussion enden
+
+
+proslint -- github -> checkt Schreibstil
