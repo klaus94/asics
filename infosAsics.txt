@@ -1,0 +1,17 @@
+infos asics
+
+bewertung paper geht in mündliche Prüfung mit ein
+
+bis 14.7 Einreichen -> Review durch 2 Doktoren -> eine Woche nacharbeiten
+-> Paper ist Grundlage für mündliche Prüfung
+
+Paper im Stil: ACM SIGPLAN
+Schrift: Times New Roman 10pt
+mit Seitennummer (preprint im document anschalten)
+
+prüfungsrelevant ist alles aus der Vorlesung
+
+nächste Woche Termin mit Prof. Aßmann (möglichst ZOPP mitbringen)
+
+
+Tool: XMind (Zopp...)

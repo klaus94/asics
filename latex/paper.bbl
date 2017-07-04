@@ -1,18 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{deLemos2013}
-R.~de~Lemos, H.~Giese, H.~A. M{\"u}ller, M.~Shaw, J.~Andersson, M.~Litoiu,
-  B.~Schmerl, G.~Tamura, N.~M. Villegas, T.~Vogel, D.~Weyns, L.~Baresi,
-  B.~Becker, N.~Bencomo, Y.~Brun, B.~Cukic, R.~Desmarais, S.~Dustdar,
-  G.~Engels, K.~Geihs, K.~M. G{\"o}schka, A.~Gorla, V.~Grassi, P.~Inverardi,
-  G.~Karsai, J.~Kramer, A.~Lopes, J.~Magee, S.~Malek, S.~Mankovskii,
-  R.~Mirandola, J.~Mylopoulos, O.~Nierstrasz, M.~Pezz{\`e}, C.~Prehofer,
-  W.~Sch{\"a}fer, R.~Schlichting, D.~B. Smith, J.~P. Sousa, L.~Tahvildari,
-  K.~Wong, and J.~Wuttke.
-\newblock {\em Software Engineering for Self-Adaptive Systems: A Second
-  Research Roadmap}, pages 1--32.
-\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2013.
-
 \bibitem{Eberhardinger2014}
 B.~Eberhardinger, H.~Seebach, A.~Knapp, and W.~Reif.
 \newblock {\em Towards Testing Self-organizing, Adaptive Systems}, pages

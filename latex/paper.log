@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.23)  29 JUN 2017 13:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.23)  4 JUL 2017 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,30 +6,60 @@ entering extended mode
 (./paper.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(./sigplanconf.cls
+Document Class: sigplanconf 2016/12/20 v3.6 ACM SIGPLAN Proceedings
+\@numheaddepth=\count79
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+\standardtextwidth=\dimen103
+\standardvspace=\skip43
+
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count88
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\@sectionaboveskip=\skip44
+\@sectionbelowskip=\skip45
+\@subsectionaboveskip=\skip46
+\@subsectionbelowskip=\skip47
+\@paragraphaboveskip=\skip48
+\@authorcount=\count89
+\@titlenotecount=\count90
+\@titlenotetext=\toks16
+\@fnmark=\toks17
+\@authori=\count91
+\@measbox=\box26
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
@@ -50,39 +80,46 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count92
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 )
-(./paper.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
-\scratchdimen=\dimen105
-\scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count91
-\MPscratchDim=\dimen106
-\MPnumerator=\count92
-\makeMPintoPDFobject=\count93
-\everyMPtoPDFconversion=\toks16
+\scratchcounter=\count93
+\scratchdimen=\dimen106
+\scratchbox=\box27
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen107
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -131,25 +168,27 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 17.
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./paper.toc
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+ (./paper.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 4.
 )
-\tf@toc=\write3
-\openout3 = `paper.toc'.
+\tf@toc=\write4
+\openout4 = `paper.toc'.
 
- [2]
+
 (./section/abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--9
 
@@ -160,14 +199,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--9
 
  []
 
-) [3] (./section/introduction2.tex
-<images/MAPE.png, id=17, 724.7075pt x 503.8825pt>
-File: images/MAPE.png Graphic file (type png)
- <use images/MAPE.png>
-Package pdftex.def Info: images/MAPE.png used on input line 17.
-(pdftex.def)             Requested size: 345.0pt x 239.87718pt.
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-[4 <./images/MAPE.png>]) [5] (./section/methodAndResult.tex
+
+]
+(./section/introduction2.tex <images/MAPE.png, id=10, 724.7075pt x 503.8825pt>
+File: images/MAPE.png Graphic file (type png)
+
+<use images/MAPE.png>
+Package pdftex.def Info: images/MAPE.png used on input line 17.
+(pdftex.def)             Requested size: 256.0748pt x 178.04532pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 17--18
+[][] 
+ []
+
+) [2 <./images/MAPE.png>] (./section/methodAndResult.tex
 (./section/subsection/selftesting.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
@@ -183,68 +230,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
-[6]) (./section/subsection/modelbasedTesting.tex
-<images/adaptiveSystemFailures.png, id=27, 1387.1825pt x 507.8975pt>
+) (./section/subsection/modelbasedTesting.tex
+<images/adaptiveSystemFailures.png, id=14, 1387.1825pt x 507.8975pt>
 File: images/adaptiveSystemFailures.png Graphic file (type png)
 
 <use images/adaptiveSystemFailures.png>
 Package pdftex.def Info: images/adaptiveSystemFailures.png used on input line 9
 .
-(pdftex.def)             Requested size: 345.0pt x 126.31532pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
+(pdftex.def)             Requested size: 284.52756pt x 104.1739pt.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+Overfull \hbox (44.52756pt too wide) in paragraph at lines 9--10
+[][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 17.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
- [7 <./images/adaptiveSystemFailures.png>])) [8] (./section/evaluation.tex
-<images/testmanager.png, id=36, 376.40625pt x 255.95625pt>
+ [3 <./images/adaptiveSystemFailures.png>])) (./section/evaluation.tex
+<images/testmanager.png, id=19, 376.40625pt x 255.95625pt>
 File: images/testmanager.png Graphic file (type png)
 
 <use images/testmanager.png>
 Package pdftex.def Info: images/testmanager.png used on input line 18.
-(pdftex.def)             Requested size: 292.89497pt x 199.16928pt.
- [9 <./images/testmanager.png (PNG copy)>]
-<images/corridor.png, id=40, 406.51875pt x 255.95625pt>
+(pdftex.def)             Requested size: 284.52756pt x 193.49377pt.
+
+Overfull \hbox (44.52756pt too wide) in paragraph at lines 18--19
+[][] 
+ []
+
+[4 <./images/testmanager.png (PNG copy)>]
+<images/corridor.png, id=23, 406.51875pt x 255.95625pt>
 File: images/corridor.png Graphic file (type png)
 
 <use images/corridor.png>
 Package pdftex.def Info: images/corridor.png used on input line 29.
-(pdftex.def)             Requested size: 316.32657pt x 199.16928pt.
- [10 <./images/corridor.png (PNG copy)>]
-<images/modelBased.png, id=44, 448.67625pt x 255.95625pt>
+(pdftex.def)             Requested size: 256.0748pt x 161.23766pt.
+
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 29--30
+[][] 
+ []
+
+<images/modelBased.png, id=24, 448.67625pt x 255.95625pt>
 File: images/modelBased.png Graphic file (type png)
 
 <use images/modelBased.png>
 Package pdftex.def Info: images/modelBased.png used on input line 39.
-(pdftex.def)             Requested size: 349.13083pt x 199.16928pt.
+(pdftex.def)             Requested size: 284.52756pt x 162.3195pt.
 
-Overfull \hbox (4.13083pt too wide) in paragraph at lines 39--40
+Overfull \hbox (44.52756pt too wide) in paragraph at lines 39--40
 [][] 
  []
 
-) [11 <./images/modelBased.png (PNG copy)>] (./section/futureWork.tex)
-(./paper.bbl) [12] (./paper.aux) ) 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [5 <./images/corridor.png (PNG copy)> <./images/modelBased.png (PNG copy)>]
+(./section/futureWork.tex) (./paper.bbl) [6
+
+] (./paper.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1575 strings out of 493029
- 22809 string characters out of 6136234
- 81603 words of memory out of 5000000
- 5083 multiletter control sequences out of 15000+600000
- 8241 words of font info for 29 fonts, out of 8000000 for 9000
+ 2120 strings out of 493029
+ 30207 string characters out of 6136234
+ 102505 words of memory out of 5000000
+ 5598 multiletter control sequences out of 15000+600000
+ 22840 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,23p,1107b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on paper.pdf (12 pages, 373489 bytes).
+ 37i,5n,35p,1107b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (6 pages, 326753 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

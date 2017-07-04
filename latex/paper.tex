@@ -1,13 +1,22 @@
-\documentclass{article}
+\documentclass[preprint, nonatbib]{sigplanconf}
 \usepackage{graphicx}
+\usepackage{times}
 \title{Testing self-adaptive systems - an overview}
-\author{Tilo Werdin, Dominik Olwig}
+
 
 \begin{document}
+%\authorinfo{Tilo Werdin\and Dominik Olwig}
+
+%\maketitle
+
+\title{Testing self-adaptive systems - an overview}
+
+\authorinfo{Tilo Werdin}
+\authorinfo{Dominik Olwig}
 
 \maketitle
 
-\newpage
+%\newpage
 
 \tableofcontents
 \newpage
@@ -30,7 +39,20 @@
 
 \input{section/futureWork}
 
+%\bibliographystyle{abbrv}
+%\bibliography{../bibtex/papers}
+% The 'abbrvnat' bibliography style is recommended.
+
 \bibliographystyle{abbrv}
+
+% The bibliography should be embedded for final submission.
 \bibliography{../bibtex/papers}
+
+%\begin{thebibliography}{}
+%\softraggedright
+
+
+%\end{thebibliography}
+
 
 \end{document}
