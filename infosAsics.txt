@@ -15,3 +15,25 @@ nächste Woche Termin mit Prof. Aßmann (möglichst ZOPP mitbringen)
 
 
 Tool: XMind (Zopp...)
+
+
+Section = 								Skeleton
+Einleitungsparagraph					Thesis point
+Paragraph1								point
+Paragraph2								point
+Paragraph3								point
+Zusammenfassender Paragraph 			message
+
+Paragraph = 
+Thesis question (nicht unbedingt explizit)
+Thesis statement (Aussage, Thema, Sinn, Vorteil, Development-Scheme)
+Argument1
+(Übergang: Marker (additionaly, moreover, ...) oder Übergangssatz)
+Argument2
+(Übergang)
+Argument3
+Zusammenfassender Satz/Message/Point
+
+spezielle Formen:
+- suspension paragraph: statt Thesis statement: Point forecast und zusammenfassender Satz ist das Thesis-Statement
+- pivot paragraph: verschiedene Argumentationssichten auf ein Thesis-Statement

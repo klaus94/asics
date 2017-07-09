@@ -1,17 +1,18 @@
 \contentsline {section}{\numberline {1}Abstract}{1}
 \contentsline {section}{\numberline {2}Introduction}{2}
-\contentsline {section}{\numberline {3}Result}{3}
-\contentsline {subsection}{\numberline {3.1}Self-Testing}{3}
-\contentsline {subsubsection}{\numberline {3.1.1}Testmanager}{3}
-\contentsline {subsubsection}{\numberline {3.1.2}Corridor Enforcing Infrastructure}{3}
-\contentsline {subsection}{\numberline {3.2}Model-based testing}{3}
-\contentsline {subsubsection}{\numberline {3.2.1}Finding failure scenarios}{3}
-\contentsline {subsubsection}{\numberline {3.2.2}Modelling of behavior}{3}
-\contentsline {subsubsection}{\numberline {3.2.3}Testing}{4}
-\contentsline {section}{\numberline {4}Evaluation}{4}
-\contentsline {subsection}{\numberline {4.1}Criteria}{4}
-\contentsline {subsection}{\numberline {4.2}Comparison}{4}
-\contentsline {subsubsection}{\numberline {4.2.1}Testmanager}{4}
+\contentsline {section}{\numberline {3}Two approaches for testing self-adaptive systems}{3}
+\contentsline {subsection}{\numberline {3.1}Classification overview}{3}
+\contentsline {subsection}{\numberline {3.2}Self-Testing}{3}
+\contentsline {subsubsection}{\numberline {3.2.1}Testmanager}{3}
+\contentsline {subsubsection}{\numberline {3.2.2}Corridor Enforcing Infrastructure}{3}
+\contentsline {subsection}{\numberline {3.3}Model-based testing}{4}
+\contentsline {subsubsection}{\numberline {3.3.1}Finding failure scenarios}{4}
+\contentsline {subsubsection}{\numberline {3.3.2}Modelling of behavior}{4}
+\contentsline {subsubsection}{\numberline {3.3.3}Testing}{4}
+\contentsline {section}{\numberline {4}Evaluation}{5}
+\contentsline {subsection}{\numberline {4.1}Criteria}{5}
+\contentsline {subsection}{\numberline {4.2}Comparison}{5}
+\contentsline {subsubsection}{\numberline {4.2.1}Testmanager}{5}
 \contentsline {subsubsection}{\numberline {4.2.2}Corridor enforcing infrastructure}{5}
 \contentsline {subsubsection}{\numberline {4.2.3}modelbased testing}{5}
 \contentsline {section}{\numberline {5}Future Work}{6}

@@ -5,20 +5,17 @@ Digital systems are more and more integrated in our daily lives. This makes high
 
 % applications
 There are multiple applications for SAS in different domains such as digital assistants, self-driving cars, highly distributed web-services or robots to name a few. Some of them are safety-critical applications, that could cause high damage and even harm people, if they behaved wrongly.
-
 % need for testing
 For this reason it is very important to test these systems to ensure good behavior.
 
 % funcionality of sas
-But before thinking about the testing, it is important to understand how SAS work and what characterizes them.
-
+But before thinking about testing, it is important to understand how SAS work and what characterizes them.
 \begin{figure}[t]
   \includegraphics[width=9cm]
   {images/MAPE.png}
   \caption{MAPE \cite{puschel2013towards}}
   \label{MAPE}
 \end{figure}
-
 The main idea of SAS is the control loop. A control loop contains four main parts (as shown in Figure~\ref{MAPE}): monitoring, analysis, planning and execution (MAPE). The control loop operates frequently and influences the behavior of the system. While monitoring and execution interact directly with physical parts of the system, the analysis and planning parts of the loop calculate the adjustments the system should make.
 
 % characterization of SAS
@@ -26,9 +23,16 @@ A SAS is often characterised by a high degree of distribution. A system can use 
 
 % challanges
 These properties of self-adaptive systems lead to many challanges regarding testing of these systems. One consequence is that system-testers do not have total access to the code the system will execute. Moreover a tester can not predict at a specific call-site, which code will be executed next, because that depends on the currently used service and environment. The complexity is an other big challange for testing SAS. Every different environment and state of the system can lead to different desired behavior, which causes a combinatorical explosion of test-cases.
-
 % limits of traditional testing
 Traditional testing assumes, that a system will always behave in a good way, when all possible test-cases were tested successfully. But this approach is not practicable for SAS. The amount of test-cases is too high and it might be impossible to execute some tests, because the tester does not have all code parts that will be executed.
 
 % method
 To find existing testing-methods that target these problems, we used the snowballing-method during our research. We then grouped the papers we had found regarding their main approach. 
+
+
+\begin{figure*}[h]
+  \includegraphics[width=\textwidth]
+  {images/adaptiveSystemFailures.png}
+  \caption{occurence of failures}
+  \label{failures}
+\end{figure*}

@@ -1,17 +1,10 @@
 \subsection{Model-based testing}
 
-In the basic idea the model-based testing can be compared to traditional unit tests that a testing engineer is writing to test software. But model-based testing is a further developement of unit testing. The idea of model-based testing is not to think of all different scenarios and writing tests to each one oneself, but to generate these tests. The target of generating tests for SAS is to touch all available scenarios and test every situation the SAS might be into.
+Modelbased testing makes traditional unit tests applicable for self-adaptive systems by generating tests automatically. The idea of model-based testing is not to think of all different scenarios and writing tests to each test-case oneself, but to generate these tests based on a model of the system. The target of generating tests for SAS is to cover all available scenarios and to test every situation the SAS might be in.
 
 \subsubsection{Finding failure scenarios}
 
-\begin{figure}[h]
-  \includegraphics[width=10cm]
-  {images/adaptiveSystemFailures.png}
-  \caption{occurence of failures}
-  \label{failures}
-\end{figure}
-
-To find failure scenarios there is the need of searching for aspects that can fail during execution. P\"uschel et al. \cite{puschel2013towards} defines them refering to Figure~\ref{failures}. The different failure scenarios are:
+To find failure scenarios there is the need for searching for aspects that can fail during execution. P\"uschel et al. \cite{puschel2013towards} define them refering to Figure~\ref{failures}. The different failure scenarios are:
 
 \begin{itemize}
   \item SENS: misinterpreted sensor data
@@ -34,4 +27,4 @@ An example of how this could look like was made by P\"uschel et al. in \cite{pus
 
 \subsubsection{Testing}
 
-After modelling different orthogonal state-flows or other behavior models, the main part of the generating test cases for the model-based testing is, merging the models together canonically and getting a huge set of test scenarios. For each of these test scenarios there will be created one special test. The great benefit is that the test engineer has not to think of every scenario himself but when the behavior is modeled, he will get every single test scenario from the generation from the models. So if there is any case that is very unlikely to happen, the testing engineer might leave it out or do not even think about it. But with this method it is tested anyway and if the system gets to this state there is a way to normalism.
+After modelling different orthogonal state-flows or other behavior models, the test-suite will do the rest of the work: generating test-cases. This is done by merging the models together canonically and getting a huge set of test scenarios. For each of these test scenarios there will be one separate test. The great benefit is that the test engineer does not need to think of every scenario. When the behavior is modeled, the test-suite will generate every single test scenario that can be derived from the models. So if there is a test-case that is very unlikely to happen, the testing engineer might leave it out or does not even think about it. But with this method it is tested anyway. If the system then gets to this unlikely state it will be prepared because the scenario was handled during testing already.
